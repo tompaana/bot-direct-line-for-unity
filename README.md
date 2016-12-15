@@ -15,7 +15,7 @@ implementation for Unity. The current implementation enables:
    listening to bot response events: 
 
     ```csharp
-    BotDirectLineManager.Initialize(<INSERT YOUR BOT'S SECRET KEY HERE>);
+    BotDirectLineManager.Initialize("INSERT YOUR BOT'S SECRET KEY HERE");
     BotDirectLineManager.Instance.BotResponse += OnBotResponse;
     ```
 
